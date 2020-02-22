@@ -49,7 +49,4 @@ variable "key_name"  {
 	default = "ScalrTest"
 
 }
-variable "count" {
-	default="2"
 
-}
