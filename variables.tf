@@ -27,3 +27,29 @@ default = "us-east-2a"
 variable "az2" {
 default = "us-east-2b"
 }
+
+variable "ami" {                   
+	default = "ami-0e38b48473ea57778"
+}
+  
+variable "instance_type" {
+	default = "t2.nano"
+
+}
+variable "subnet" {
+	default = "subnet-085bedd7b7346c294"
+
+}
+variable "vpc_security_group_ids" {
+
+	default = "sg-0a3d079089468cf29"
+
+}
+variable "key_name"  {
+	default = "ScalrTest"
+
+}
+variable "count" {
+	default="2"
+
+}
