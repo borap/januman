@@ -43,6 +43,7 @@ variable "subnet" {
 variable "sg" {
 
 	default = "sg-0a3d079089468cf29"
+	type        = list(string)
 
 }
 variable "key"  {
