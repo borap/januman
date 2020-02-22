@@ -40,12 +40,12 @@ variable "subnet" {
 	default = "subnet-085bedd7b7346c294"
 
 }
-variable "vpc_security_group_ids" {
+variable "sg" {
 
 	default = "sg-0a3d079089468cf29"
 
 }
-variable "key_name"  {
+variable "key"  {
 	default = "ScalrTest"
 
 }
