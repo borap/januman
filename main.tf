@@ -32,3 +32,15 @@ resource "aws_subnet" "prod-subnet-public-2" {
     }
 }
 
+resource "aws_instance" "scalrJMTD" {
+  ami                    = var.ami
+  instance_type          = var.instance_type
+  subnet_id              = var.subnet
+  vpc_security_group_ids = var.sg
+  key_name               = var.key
+   tags = {
+        Name = "scalrJMTDEc2"
+		Purpose = "TimePass"
+    }
+
+}
