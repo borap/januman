@@ -19,6 +19,7 @@ resource "aws_subnet" "prod-subnet-public-1" {
     availability_zone = var.az1
     tags = {
         Name = "prod-subnet-public-1"
+	Lastname = "Nando"
     }
 }
 
