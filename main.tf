@@ -41,6 +41,7 @@ resource "aws_instance" "scalrJMTD" {
    tags = {
         Name = "scalrJMTDEc2"
 		Purpose = "TimePass"
+	   Chicken = "Toosso"
     }
 
 }
